@@ -3,21 +3,17 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .hover-elevate {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 .hover-elevate:hover {
     transform: translateY(-5px);
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
 }
 
-
 .carousel-indicators [data-bs-target] {
     width: 40px;
     height: 5px;
     border-radius: 10px;
 }
-
